@@ -1,0 +1,9 @@
+[submodule "mini-projet1"]
+	path = mini-projet1
+	url = https://github.com/cbahouas-iut90/mini-projet1.git
+[submodule "mini-projet2"]
+	path = mini-projet2
+	url = https://github.com/cbahouas-iut90/mini-projet2.git
+[submodule "mini-projet3"]
+	path = mini-projet3
+	url = https://github.com/cbahouas-iut90/mini-projet3.git
