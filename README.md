@@ -12,8 +12,6 @@ Ce projet est constitué de **trois mini-projets** indépendants, chacun explora
 
 Chaque mini-projet est accompagné d’un backend (Node.js + Express) et d’un frontend (Vue.js).
 
----
-
 ## 🔐 Mini-projet 1 : Authentification avec Passport-Local et Session
 
 ### 🛠️ Technologies utilisées
@@ -27,8 +25,6 @@ Chaque mini-projet est accompagné d’un backend (Node.js + Express) et d’un 
 - Connexion avec vérification des identifiants
 - Page d’accueil protégée après connexion
 - Stockage des sessions dans les cookies
-
----
 
 ## 🔐 Mini-projet 2 : Authentification avec JWT (JSON Web Token)
 
@@ -44,7 +40,6 @@ Chaque mini-projet est accompagné d’un backend (Node.js + Express) et d’un 
 - Page d’accueil sécurisée avec vérification du JWT
 - Gestion du token côté client
 
----
 
 ## 🌐 Mini-projet 3 : Authentification OAuth2 avec Google + Chat en temps réel
 
@@ -59,10 +54,8 @@ Chaque mini-projet est accompagné d’un backend (Node.js + Express) et d’un 
 - Authentification via Google OAuth2 (et potentiellement un autre fournisseur)
 - Sauvegarde des utilisateurs et tokens dans MongoDB
 - Mise en cache des sessions avec Redis
-- Interface de chat entre utilisateurs connectés
-- Sauvegarde de l’historique des messages dans MongoDB
+- Interface de chat entre utilisateurs connectésauvegarde de l’historique des messages dans MongoDB
 
----
 
 ## ⚙️ Instructions d’exécution
 
@@ -79,8 +72,7 @@ git clone --recurse-submodules https://github.com/cbahouas-iut90/mini-projet3.gi
 
 ### Commandes générales (à adapter pour chaque mini-projet)
 ```bash
-# Installation des dépendances
-cd mini-projet1
+# Installation des dépendance mini-projet1
 
 # pour le backend
 cd backend
@@ -110,10 +102,8 @@ Chaque mini-projet possède son propre dossier :
   └── frontend
 ```
 
----
 
-## 📁 Organisation du dépôt GitHub
+ Organisation du dépôt GitHub
 - Un dossier par mini-projet
 - Un fichier README.md global à la racine (ce document)
 - Un fichier README spécifique dans chaque mini-projet 
----
