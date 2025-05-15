@@ -1,7 +1,8 @@
 # Projet - Exploration des Stratégies d’Authentification avec Node.js et Vue.js
 
 ## Auteurs
-- [À compléter avec les noms des étudiants du groupe]
+- Mehdi EZZOUAK
+- Christ BAHOUASSILA
 
 ## Description Générale
 Ce projet est constitué de **trois mini-projets** indépendants, chacun explorant une stratégie d’authentification différente :
@@ -63,31 +64,36 @@ Chaque mini-projet est accompagné d’un backend (Node.js + Express) et d’un 
 
 ---
 
-## 🎯 Objectifs pédagogiques
-- Comprendre les mécanismes d’authentification : Passport-Local, JWT, OAuth2
-- Mettre en place une gestion sécurisée des sessions (cookies, JWT, Redis)
-- Implémenter un système de chat en temps réel avec Socket.io
-- Gérer différentes bases de données (relationnelles et NoSQL)
-
----
-
 ## ⚙️ Instructions d’exécution
 
 ### Prérequis
 - Node.js (v18 ou v20 recommandé)
 - MongoDB / PostgreSQL / MySQL selon le projet
 - Redis (pour le mini-projet 3)
-- npm
+- gestionnaire de package npm
+
+### Cloner le dépôt
+```bash
+git clone --recurse-submodules https://github.com/cbahouas-iut90/mini-projet3.git
+```
 
 ### Commandes générales (à adapter pour chaque mini-projet)
 ```bash
 # Installation des dépendances
+cd mini-projet1
+
+# pour le backend
+cd backend
 npm install
 
 # Démarrage du backend
 node server.js
 
-# Démarrage du frontend (dans le dossier Vue.js)
+# pour le frontend
+cd ../frontend
+npm install
+
+# Démarrage du frontend (dans le dossier frontend)
 npm run serve
 ```
 
@@ -109,6 +115,5 @@ Chaque mini-projet possède son propre dossier :
 ## 📁 Organisation du dépôt GitHub
 - Un dossier par mini-projet
 - Un fichier README.md global à la racine (ce document)
-- Un fichier README spécifique dans chaque mini-projet (optionnel)
-
+- Un fichier README spécifique dans chaque mini-projet 
 ---
